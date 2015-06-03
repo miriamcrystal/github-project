@@ -46,5 +46,8 @@ table {
   border-spacing: 0; }
 
 body {
-  background: orange;
+  background: pink;
   font-size: 100px; }
+
+.github-id {
+  width: 300px; }
