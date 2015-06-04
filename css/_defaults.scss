@@ -34,6 +34,8 @@ h1 {
 
 .name {
   padding-top: 1em;
+  border-bottom: solid;
+  border-size: 1px;
 }
 
 .avatar {
@@ -41,7 +43,11 @@ h1 {
 }
 
 .public-repos {
+  padding-top: 1em;
+  font-size: 25px;
 }
 
 .followers {
+  font-size: 25px;
+
 }

@@ -73,7 +73,16 @@ h1 {
   font-size: 30px; }
 
 .name {
-  padding-top: 1em; }
+  padding-top: 1em;
+  border-bottom: solid;
+  border-size: 1px; }
 
 .avatar {
   width: 100px; }
+
+.public-repos {
+  padding-top: 1em;
+  font-size: 25px; }
+
+.followers {
+  font-size: 25px; }
