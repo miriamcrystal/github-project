@@ -7,18 +7,18 @@
   </head>
 
   <body>
-    <h1>Here's where we'll show github info </h1>
+    <h1>Enter your GitHub ID below</h1>
 
     <script type="text/template" class="template">
 
-    <div>
-      <h3> <%- m.name %> </h3>
-      <img src="<%- m.avatar_url %>">
+    <div class="display-github-info">
+      <h3 class="name"> <%- m.name %> </h3>
+      <img src="<%- m.avatar_url %>" class="avatar">
       <ul>
-        <li>
+        <li class="public-repos">
           Public Repos: <%- m.public_repos %>
         </li>
-        <li>
+        <li class="followers">
           Followers:  <%- m.followers %>
         </li>
       </ul>
@@ -32,8 +32,8 @@
     </script>
 
     <form>
-      <input type="text" class="github-id" placeholder="github id"></input>
-      <input type="submit" value="submit"></input>
+      <input type="text" class="github-id" placeholder="  GitHub ID" value="miriamcrystal"></input>
+      <input type="submit" value="submit" class="submit-button"></input>
     </form>
 
 
